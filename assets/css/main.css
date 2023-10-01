@@ -1362,7 +1362,7 @@ input, select, textarea {
 
 	ul.contact-icons {
 		list-style: none;
-		padding-left: 0;
+		padding: 3.5rem 3.5rem 2rem 3.5rem;
 	}
 
 		ul.contact-icons > li {
@@ -2195,7 +2195,8 @@ input, select, textarea {
 		}
 
 			.panel > *.color0 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+				background-image: url("../../images/overlay.png");
+				background-color: #323459;
 				background-size: 128px 128px, auto;
 			}
 
@@ -2712,7 +2713,8 @@ input, select, textarea {
 		}
 
 		.panel.color0 {
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+			background-image: url("../../images/overlay.png");
+			background-color:;
 			background-size: 128px 128px, auto;
 		}
 
